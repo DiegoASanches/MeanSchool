@@ -1,0 +1,62 @@
+<!--
+	Site para consulta: https://www.w3schools.com/html/default.asp
+
+	elementos importantes:
+	
+	* colocar link em alguma coisa
+	<a href="outraPagina.html">
+		<div>
+			texto qualquer
+		</div>
+	</a>
+
+	* colocar imagem 
+	<img src="img/imagem.png">
+
+	* Criar uma lista
+	<li>
+		<ul>Elemento 1 </ul>
+		<ul>Elemento 2 </ul>
+	</li>
+
+	* FORMULARIO
+	* input <input type="text" id="nome_do_input">
+	* botão <button type="submit">Botão</button>
+	Consulta: https://www.w3schools.com/html/html_forms.asp
+-->
+<html>
+<head> 
+<title>Titulo do Site</title>
+<link rel="icon" href="images/favicon.png"> <!-- icone do site -->
+<link href="styles/style.css" rel="stylesheet" type="text/css"/> <!-- Chamada do arquivo CSS -->
+<meta name="viewport" content="width=device-width, initial-scale=1"> <!-- ajustar o content do site a tela -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script> <!-- Instalando jquery -->
+<script src="js/controlador.js"></script>
+</head>
+
+<body>
+<!-- ************************* conteudo do site ************************* -->
+	<center>
+		<div class="formulario">
+			<div class="bloco">
+				<p>Sem jquery</p>
+				<input type="text" id="nome">
+				<button onClick="acao1()" type="button">Ação</button>
+			</div>
+
+			<div class="blocoJquery">
+				<p>Com jquery</p>
+				<input type="text" id="nome_jquery">
+				<button onClick="acao1_jquery()" type="button">Ação</button>
+			</div>
+
+			<ul id="lista">
+			</ul>
+		</div>
+	</center>
+
+<!-- ************************* ./conteudo do site ************************* -->
+</body>
+
+</html>
