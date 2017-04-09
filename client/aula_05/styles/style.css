@@ -1,0 +1,46 @@
+/* ******************************* ARQUIVO CSS ******************************* 
+	.NOME se refere a uma classe
+	#NOME se refere a um id
+	
+
+	atributos:
+	float: left; ----> alinha o elemento a esquerda
+	float: right; ----> alinha o elemento a direita
+	width: 10px; -----> atribui o tamanho de largura do elemento
+	height: 10px; ------> atribui o tamanho de altura do elemento
+	text-align: center; ------> alinha o texto dentro da div
+	margin-left: 10px; ------> joga o elemento para direita
+	margin-right: 10px; -------> joga o elemento para esquerda
+	margin-top: 10px; ------> joga o elemento para baixo
+	margin-bottom: 10px; ------> joga o elemento para cima
+	color: #0000 ou white/blue/black; ----> muda cor da fonte
+	cursor: pointer; -----> se passar o mouse em cima do elemento aparece o cursor de clicar do mouse
+*/
+
+
+.bloco1{
+	width: 200px;
+	height: 200px;
+	background-color: red;
+}
+
+
+#classe_de_um_id{
+	width: 200px;
+	height: 200px;
+	background-color: blue;
+}
+
+.formulario{
+	width: 100%;
+	height: 500px;
+}
+
+.formulario .bloco {
+	background-color: red;
+}
+
+.formulario .blocoJquery{
+	background-color: blue;
+}
+
