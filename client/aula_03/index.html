@@ -27,7 +27,12 @@
 			<div class="bloco">
 				<p>Digite para mudar o título do site</p>
 				<input type="text" id="titulo" ng-model="titulo">
-				<button ng-click="mudar()" type="button">Ação</button>
+				<button ng-click="mudar()" type="button">Mudar Título</button>
+			</div>
+
+			<div>
+				Você está digitando:
+				{{titulo}} <!-- conseguimos pegar o que você digita no input pois atravez do ng-model do input você "criou" uma var scope, possibilitando ser enxergada por esta view -->
 			</div>
 
 			<ul id="lista">
