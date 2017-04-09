@@ -14,10 +14,10 @@ function indexController($scope){
 		var array = [1,2,3,4,5];
 
 		array = array.filter(function(i){
-			return i > 3;
+			return i > 3; //retorna apenas se o numero for maior que 3
 		});
 
-		console.log(array);
+		console.log(array); // retorno = [4,5]
 	}
 
 	/* tudo que for utilizado com a var $scope ficará visivel para a index.html
