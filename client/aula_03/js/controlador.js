@@ -10,6 +10,7 @@ function indexController($scope){
 
 	filter();
 
+
 	function filter(){
 		var array = [1,2,3,4,5];
 
